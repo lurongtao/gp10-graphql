@@ -1,0 +1,48 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "title": "别的电影",
+      "genres": "喜剧，动作，爱情",
+      "rating": 3.8,
+      "theater": 1
+    },
+    {
+      "id": 2,
+      "title": "精灵旅社3：疯狂假期",
+      "genres": "喜剧，动画，奇幻",
+      "rating": 7.2,
+      "theater": 2
+    }
+  ],
+  "theaters": [
+    {
+      "id": 1,
+      "name": "CGV影城(清河店)"
+    },
+    {
+      "id": 2,
+      "name": "橙天嘉禾影城(上地店)"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "subject": 1,
+      "theaters": 1,
+      "content": "电影不错，影院环境太糟了"
+    },
+    {
+      "id": 2,
+      "subject": 2,
+      "theaters": 2,
+      "content": "满分好评"
+    },
+    {
+      "id": 3,
+      "subject": 1,
+      "theaters": 1,
+      "content": "不错"
+    }
+  ]
+}
